@@ -1,5 +1,6 @@
 # Automating reading files and writing to files
 
+# Reading a file
 with open('file1.txt') as file:
     contents = file.readlines()
     contents = [ line.strip() for line in contents ]
@@ -16,3 +17,17 @@ with open('file1.txt') as file:
         jumbledWords = wordFour + wordOne + wordThree + wordFive + wordTwo
         print(jumbledWords)
         #output = linethismy2is
+
+# Writing to a file
+with open('file2.txt', 'w') as file:
+    file.write('Just me overwriting what is already in my file')
+
+# with open('file2.txt') as file:
+#     print(file.read())
+
+# Use append instead to add text to a file
+with open('file2.txt', 'a') as file:
+    file.write('\nMy newly added line')
+
+with open('file2.txt') as file:
+    print(file.read())
