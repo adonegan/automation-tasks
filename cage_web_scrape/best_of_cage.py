@@ -17,7 +17,22 @@ for film in films:
 
 with open('cagefilms.txt') as films:
     films = films.readlines()
-    films = [ line.strip() for line in films]
+    films = [line.strip() for line in films]
+    # print(films)
 
-    # for line in films:
-    #     # print(line)
+
+def get_nic_cage_film_by_year(yr):
+
+    for film in films:
+        splitListFull = film.split()
+        yearOnly = splitListFull.pop() # store years in variable
+        # strFilmList = ' '.join(map(str, splitListFull)) # join to make film names
+
+        if yr in yearOnly:
+            print(film)
+
+get_nic_cage_film_by_year('1997')
+
+# output
+# Con Air (1997)
+# Face/Off (1997)
