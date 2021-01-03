@@ -1,4 +1,3 @@
-import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -8,6 +7,7 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'lxml')
 films = soup.find_all('div', 'col-title')
 
+# films from 1980 to 2013
 for film in films:
     nameOfFilm = film.find('a').contents[0]
     yearOfFilm = film.find('span','lister-item-year').text
