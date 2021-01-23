@@ -37,14 +37,38 @@ print(sum)
 # Display the word Hello horizontally and then vertically
 
 # create variable for greeting
+greeting = 'Hello'
+
 # create variable for first letter
+firstLetter = greeting[0]
+
 # create variable for second letter
+secondLetter = greeting[1]
+
 # create variable for third letter
+thirdLetter = greeting[2]
+
 # create variable for fourth letter
+fourthLetter = greeting[3]
+
 # create variable for fifth letter
+fifthLetter = greeting[4]
+
+
 # print greeting
+print(greeting)
+
 # print first letter
+print(firstLetter)
+
 # print second letter
+print(secondLetter)
+
 # print third letter
+print(thirdLetter)
+
 # print fourth letter
+print(fourthLetter)
+
 # print fifth letter
+print(fifthLetter)
