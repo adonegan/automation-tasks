@@ -5,22 +5,26 @@
 # PROGRAM 1
 # Ask the user for two numbers and add them
 
-# inital values
+# create an integer variable for x
+# create an integer variable for y
+# create an integer variable for sum
 x = 0
 y = 0
 sum = 0
 
-# ask user for input
-# store input in variables
+# ask the user 'x: ' and put answer in x
+# ask the user 'y: ' and put answer in y
 x = input('Pick a number: ')
 y = input('Pick another number: ')
 
-# convert to ints in new variables
-# add new variables together
-newX = int(x)
-newY = int(y)
-sum = newX + newY
+# convert x value to int and store in new variable
+# convert y value to int and store in new variable
+numX = int(x)
+numY = int(y)
 
-# print output of results
+# add numX and numY and store in sum variable
+sum = numX + numY
+
+# tell user sum
 print('The sum is... ')
 print(sum)
