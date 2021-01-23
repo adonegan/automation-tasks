@@ -4,6 +4,7 @@
 # Write algorithm on paper first
 # Then convert to code
 
+
 # PROGRAM 1
 # Ask the user for two numbers and add them
 
@@ -30,3 +31,20 @@ sum = numX + numY
 # tell user sum
 print('The sum is... ')
 print(sum)
+
+
+# PROGRAM 2
+# Display the word Hello horizontally and then vertically
+
+# create variable for greeting
+# create variable for first letter
+# create variable for second letter
+# create variable for third letter
+# create variable for fourth letter
+# create variable for fifth letter
+# print greeting
+# print first letter
+# print second letter
+# print third letter
+# print fourth letter
+# print fifth letter
