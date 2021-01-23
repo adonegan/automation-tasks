@@ -72,3 +72,27 @@ print(fourthLetter)
 
 # print fifth letter
 print(fifthLetter)
+
+
+# PROGRAM 3
+# Return number of vowels in a given string
+
+def get_count(inputStr):
+    # initial counter variable
+    num_vowels = 0
+
+    # for every character in the input string
+    for char in inputStr:
+
+        # if the character is in my vowel string
+        if char in 'aeiou':
+            
+            # increment num_vowels by 1
+            num_vowels += 1
+    
+    # return updated variable
+    return num_vowels
+
+# print the results of the input if input is 'hiii'
+print(get_count('hiii'))
+# output is 3
