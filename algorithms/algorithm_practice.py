@@ -96,3 +96,31 @@ def get_count(inputStr):
 # print the results of the input if input is 'hiii'
 print(get_count('hiii'))
 # output is 3
+
+
+# PROGRAM 4
+# Codewars: Square every digit of a number and concatenate them.
+# For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
+# Note: The function accepts an integer and returns an integer
+
+def square_digits(num):
+    # convert input to str 
+    # rename in new variable
+    x = str(num)
+    # create empty list for squared digits
+    squaredList = []
+    # for every digit in x
+    # convert to int, square it, store in new variable
+    # convert that variable into a string
+    # append string digits to squaredList
+    for digit in x:
+        squared = int(digit) ** 2
+        squared = str(squared)
+        squaredList.append(squared)
+    # join string digits
+    # store in new variable
+    concatSquared = ''.join(squaredList)
+    # return new variable in int format
+    return int(concatSquared)
+
+print(square_digits(9191))
