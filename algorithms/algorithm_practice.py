@@ -1,4 +1,4 @@
-# A file to practice algorithms
+# A file to practise algorithms
 # Based on Andy Harris lecture
 # https://youtu.be/azcrPFhaY9k?t=1886
 # Write algorithm on paper first
