@@ -124,3 +124,19 @@ def square_digits(num):
     return int(concatSquared)
 
 print(square_digits(9191))
+
+
+# PROGRAM 5
+# Create a function that returns the sum of the lowest numbers
+
+def sum_two_smallest_numbers(numbers):
+    # sort input
+    # grab first lowest num and store in variable
+    # grab second lowest num and store in variable
+    # sum variables
+    numbers.sort()
+    firstNum = numbers[0]
+    secondNum = numbers[1]
+    return firstNum + secondNum
+
+print(sum_two_smallest_numbers([5,3,2,6]))
